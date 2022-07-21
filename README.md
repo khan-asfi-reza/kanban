@@ -1,5 +1,5 @@
 <div align="center" style="display: flex; justify-content: center; align-items: center; flex-direction: column">
-<img src="https://github.com/khan-asfi-reza/kanban/.github/kanban.png" alt="Logo" height="100" width="100">    
+<img src="https://github.com/khan-asfi-reza/kanban/blob/master/.github/kanban.png" alt="Logo" height="100" width="100">    
 <h1>Kanban</h1>
 <p>
 Kanban Like Application Built With Express and React
