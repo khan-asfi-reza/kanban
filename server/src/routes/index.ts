@@ -1,9 +1,14 @@
 import {Router} from "express";
+import auth from "@routes/auth";
+import board from "@routes/board";
+import section from "@routes/section";
+import task from "@routes/task";
+
 const router = Router()
 
-router.use('/auth', require('./auth'))
-router.use('/boards', require('./board'))
-router.use('/boards/:boardId/sections', require('./section'))
-router.use('/boards/:boardId/tasks', require('./task'))
+router.use('/auth', auth)
+router.use('/boards', board)
+router.use('/boards/:boardId/sections', section)
+router.use('/boards/:boardId/tasks', task)
 
-module.exports = router;
+export default router;
