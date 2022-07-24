@@ -1,4 +1,7 @@
 {
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
   "compilerOptions": {
     "module": "commonjs",
     "esModuleInterop": true,
@@ -18,16 +21,26 @@
       "@models/*": [
         "./src/models/*"
       ],
+      "@routes": [
+        "./src/routes/index.ts"
+      ],
       "@routes/*": [
         "./src/routes/*"
       ],
       "@handlers/*": [
         "./src/handlers/*"
+      ],
+      "@types": [
+        "./src/types/index.d.ts"
+      ],
+      "@types/*": [
+        "./src/types/*"
       ]
     }
   },
   "include": [
     "src/**/*",
-    "app.ts"
+    "app.ts",
+    "bin/*"
   ]
 }
