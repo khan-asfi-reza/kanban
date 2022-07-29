@@ -7,6 +7,8 @@ Kanban Like Application Built With Express and React
 </div>
 
 
+Built with React and Express
+
 ## Get Started ✨
 
 ### Server
